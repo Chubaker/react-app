@@ -1,0 +1,4 @@
+* @Chubaker
+*.js @Chubaker
+*.yml @Chubaker
+/public/ @Chubaker
