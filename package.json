@@ -42,4 +42,21 @@
         "prettier": "2.5.1",
         "semantic-release": "^19.0.2"
     }
+
+
+    {
+        "babel": {
+          "presets": [
+            [
+              "react-app",
+              {
+                "runtime": "automatic"
+              }
+            ]
+          ]
+        }
+      }
+
+
+
 }
