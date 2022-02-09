@@ -20,13 +20,14 @@ jobs:
       - name: Use NodeJS
         uses: actions/setup-node@v1
         with:
-          node-version: "12.x"
+          node-version: "16.x"
       - run: npm ci 
       - run: npm run format
       - run: npm run format:check
       - run: npm install
       - run: npm audit fix
-      - run: npm test -- --coverage
+      #- run: npm test -- --coverage
+      - run: npm test
         env:
           CI: true  
       - name: Upload Test Coverage
