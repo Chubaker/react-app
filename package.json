@@ -43,9 +43,7 @@
         "semantic-release": "^19.0.2"
     }
 
-
-    {
-        "babel": {
+    "babel": {
           "presets": [
             [
               "react-app",
@@ -55,7 +53,7 @@
             ]
           ]
         }
-      }
+      
 
 
 
