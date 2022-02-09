@@ -24,6 +24,7 @@ jobs:
       - run: npm ci 
       - run: npm run format
       - run: npm run format:check
+      - run: npm install
       - run: npm test -- --coverage
         env:
           CI: true  
